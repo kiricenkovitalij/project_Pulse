@@ -114,6 +114,12 @@
         height: 50px;
         margin-top: 67px;
     }
+    &_sub {
+        width: 300px;
+        height: 55px;
+        margin-top: 20px;
+    }
+
 
 }
 
@@ -155,5 +161,37 @@
         }
     }
         
+}
+
+.consultation {
+    min-height: 680px;
+    padding: 100px 0 92px 0;
+    background: url("../img/bg_2.jpg") center center/cover no-repeat;
+    h2 {
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    &__text {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 80px;
+    }
+    &__form {
+        width: 300px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #ffffff;
+        margin-top: 36px;
+        &:nth-child(3) {
+            margin-top: 15px;
+        }
+        &:nth-child(5) {
+            margin-top: 15px;
+        }
+    }
 }
 
